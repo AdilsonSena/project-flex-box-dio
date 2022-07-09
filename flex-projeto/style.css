@@ -172,7 +172,7 @@ header .menu {
 }
 
 #planos {
-    font-size: 32px;
+    font-size: 19px;
 }
 
 .list-planos {
@@ -230,4 +230,16 @@ header .menu {
     height: 10px;
     background-color: #122A57;
     margin-right: 5px;
+}
+
+footer {
+    background-color: #122A57;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer {
+    justify-content: space-between;
+    color: #fff;
 }
