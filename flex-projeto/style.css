@@ -191,6 +191,7 @@ header .menu {
     font-size: 24px;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .item-plano h3::after {
@@ -198,4 +199,25 @@ header .menu {
     background-color: #122A57;
     width: 100%;
     height: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.item-plano ul {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-plano ul li {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.item-plano ul li::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #122A57;
 }
