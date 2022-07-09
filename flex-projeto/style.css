@@ -168,11 +168,17 @@ header .menu {
 #planos {
     flex-direction: column;
     min-height: 100vh;
+    padding-top: 50px;
+}
+
+#planos {
+    font-size: 32px;
 }
 
 .list-planos {
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
 }
 
 .item-plano {
@@ -180,6 +186,7 @@ header .menu {
     border: 5px solid #122A57;
     margin-right: 20px;
     padding: 10px;
+    max-width: 240px;
 }
 
 .item-plano .btn {
@@ -192,6 +199,7 @@ header .menu {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 20px;
 }
 
 .item-plano h3::after {
@@ -207,6 +215,7 @@ header .menu {
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
 .item-plano ul li {
@@ -220,4 +229,5 @@ header .menu {
     width: 10px;
     height: 10px;
     background-color: #122A57;
+    margin-right: 5px;
 }
