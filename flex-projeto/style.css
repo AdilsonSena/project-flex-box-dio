@@ -95,7 +95,7 @@ header .menu {
 }
 
 #quem-somos h2::before {
-    content:¨;
+    content:'';
     height: 50px;
     width: 5px;
     margin-right: 5px;
