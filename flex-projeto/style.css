@@ -21,7 +21,7 @@ div img {
 
 .flex-container {
     display: flex;
-    max-width: 992px;
+    max-width: 1250px;
     margin: auto;
     width: 100%;
 }
@@ -47,7 +47,7 @@ header .list-items {
 }
 
 header .menu {
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .apresentacao {
